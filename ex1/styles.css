@@ -1,0 +1,77 @@
+body.default{
+    background-color: rgb(73, 59, 201);
+}
+
+h1.htext, h2.htext{
+    color: #dcf263;
+}
+
+h2.name{
+    color: #dcf263;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link{
+    color: #4fc9c5;
+}
+
+a:visited{
+    color: #df309c;
+}
+
+a:hover{
+    color: #3d35d1;
+}
+
+body.pictures{
+    background-color: rgb(34, 15, 199);
+}
+
+h2.pictext{
+    color: #c4ae55;
+}
+
+div.imgdiv{
+    overflow: hidden;
+    margin-block: -1px;
+}
+
+img.resize{
+    max-width:  40%;
+    max-height: 40%;
+}
+
+p.pictext{
+    color: #7fd4cd;
+}
+
+p.type1{
+    color: #559b9f;
+}
+
+p.type2{
+    color: #ed9d46;
+}
+
+p.navmsg{
+    color: #31047a;
+}
+
+nav.selector{
+    border: 1px solid #000000;
+    background-color: #1395c9;
+}
+
+nav.selector2{
+    border: 1px solid #ffffff;
+    background-color: #1395c9;
+}
+
+ul.navlist{
+    list-style: square;
+}
+
+ol.piclist{
+    color: #7fd4cd;
+    list-style: lower-alpha;
+}

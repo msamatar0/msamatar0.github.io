@@ -1,35 +1,41 @@
-<head>
-    <title>Pictures</title>
-    <style>
-        img.resize {
-            max-width:  30%;
-            max-height: 30%;
-        }
-    </style>
-</head>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Pictures</title>
+        
+        <link rel="stylesheet" href="styles.css">
+    </head>
 
-<body>
-    <h2>Obligatory Picture Linking Practice</h2>
-    <p>Here are some pictures handpicked for your viewing pleasure:</p>
+    <body class="pictures">
+        <h2 class="pictext">Obligatory Picture Linking Practice</h2>
+        <p class="pictext">Here are some pictures handpicked for your viewing pleasure:</p>
 
-    <ul>
-        <li>
-            <img class="resize" src="adventure-arid-dry-2463467.jpg" alt="">
-            <p>A picture of nature. This is a rather calming image.</p>
-        </li>
-        <li>
-            <img class="resize" src="architectural-design-architecture-building-exterior-2322707.jpg" alt="">
-            <p>A picture of a pier. This is a rather awe-inspiring image.</p>
-        </li>
-        <li>
-            <img class="resize" src="celebration-chocolate-color-1343465.jpg" alt="">
-            <p>A picture of ice cream and a pineapple. This is a rather delicious image.</p>
-        </li>
-    </ul>
+        <ol class="piclist">
+            <div class="imgdiv"><img class="resize" src="adventure-arid-dry-2463467.jpg" alt=""></div>
+            <li>
+                <p class="pictext">A picture of nature. This is a rather calming image.</p>
+            </li>
 
-    <p>If for some reason you haven't clicked on these yet:</p>
-    <ul>
-        <li><a href="ex1-1.html">Introduction</a></li>
-        <li><a href="ex1-2.html">Summary</a></li>
-    </ul>
-</body>
+            <div class="imgdiv"><img class="resize" src="architectural-design-architecture-building-exterior-2322707.jpg" alt=""></div>
+            <li>
+                <p class="pictext">A picture of a pier. This is a rather awe-inspiring image.</p>
+            </li>
+
+            <div class="imgdiv"><img class="resize" src="celebration-chocolate-color-1343465.jpg" alt=""></div>
+            <li>
+                <p class="pictext">A picture of ice cream and a pineapple. This is a rather delicious image.</p>
+            </li>
+        </ol>
+
+        <footer>
+            <nav class="selector2">
+                <ul class="navlist">
+                    <p class="navmsg">If for some reason you haven't clicked on these yet:</p>
+                    <li><a href="ex1-1.html">Introduction</a></li>
+                    <li><a href="ex1-2.html">Summary</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
